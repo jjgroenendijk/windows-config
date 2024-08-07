@@ -1,5 +1,3 @@
-
-
 Function youtube-dl-audio {
     # Stop OneDrive Process
     Stop-Process -Name "onedrive"
