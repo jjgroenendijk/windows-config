@@ -1,5 +1,7 @@
 $ProgressPreference = 'SilentlyContinue' # Hide progress bar. Make webrequest significantly faster
 
+# Find a way to lazy load this
+
 Write-output "
 Hostname: 	$env:computername
 WAN IP: 	$(curl ifconfig.me | Select-Object -ExpandProperty Content)
