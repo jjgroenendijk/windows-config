@@ -1,0 +1,1 @@
+# Enable Quake terminal in Windows Terminal
